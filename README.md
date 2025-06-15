@@ -1,58 +1,77 @@
-# Tournament Management System
+ Project Overview:
+Welcome to the Tournament Management System – a web-based application designed to streamline the organization and management of student tournaments hosted by local colleges. This system supports both team-based and individual events, promoting participation in sports and academic challenges.
 
-## Project Overview
-Welcome to the Tournament Management System! This project aims to help organize and manage a student tournament hosted by a local college. The tournament will feature both team and individual events, promoting engagement in both sports and academic challenges.
+ Key Features
+🔹 Participant Management: Register and manage teams and individual players.
 
-## Features
-- **Participant Management**: Register and manage teams and individual competitors.
-- **Event Scheduling**: Plan and schedule 5 different events for teams and individuals.
-- **Scoring System**: Flexible scoring system to be determined based on user feedback.
-- **Result Tracking**: Monitor and record results for each event.
-- **Flexible Participation**: Participants can choose to compete in one or multiple events.
+🔹 Event Scheduling: Plan and manage up to 5 different events (sports and academics).
 
-## Tournament Details
-### Participants
-- **Teams**: 4 teams, each consisting of 5 members.
-- **Individuals**: 20 individual competitors.
-- **Total Participants**: 40 students (20 in teams, 20 individual competitors).
+🔹 Scoring System: Flexible and customizable, developed in collaboration with college staff.
 
-### Events
-- **Number of Events**: 5
-- **Event Types**: Combination of sports (e.g., races) and academic challenges (e.g., problem-solving).
-- **Participation Options**: Participants can choose to compete in all 5 events or select specific ones.
+🔹 Result Tracking: Monitor and record real-time results and performance.
 
-### Scoring
-- Points will be awarded based on performance in each event.
-- The scoring system is flexible and will be decided in collaboration with the college.
+🔹 Flexible Participation: Participants can register for one or multiple events.
 
-## Technologies Used
-- **Frontend**: Bootstrap
-- **Backend**: PHP
-- **Database**: MySQL
+ Tournament Structure
+ Participants
+Teams: 4 teams, each with 5 members (20 students total).
 
-## Setup and Installation
-1. **Clone the Repository**:
-```bash
- git clone https://github.com/Zeinab-Ismail/Tournament-Management-system.git
-```
-2. **Navigate to Project Directory**:
-```bash
- cd Tournament-Management-system
+Individuals: 20 solo competitors.
 
-```
-3. **Setup Database**:
-- Create a MySQL database and import the provided SQL script.
+Total Participants: 40 students.
 
-4. **Configure Database Connection**:
-- Update the `config.php` file with your database credentials.
+🏁 Events
+Total Events: 5
 
-5. **Run the Project**:
-- Ensure you have a local server (e.g., XAMPP) running.
-- write in the cmd after accessing onthe project directory 'php -S localhost:8000'.
+Types: Mix of physical sports (e.g., races) and academic contests (e.g., quizzes, problem-solving).
 
-## License
-This project is licensed under the MIT License.
+Participation: Students may participate in one, multiple, or all events.
 
-## Contact
-For questions or suggestions, please open an issue or reach out via email at zeinabyismail445@gmail.com.
+🏅 Scoring
+Points are awarded based on performance in each event.
 
+The scoring rules are flexible and finalized through collaboration with the college's organizing committee.
+
+🛠️ Tech Stack
+Layer	Technology
+Frontend	Bootstrap
+Backend	PHP
+Database	MySQL
+
+ Setup & Installation
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/Zeinab-Ismail/Tournament-Management-system.git
+2. Navigate to the Project Directory
+bash
+Copy
+Edit
+cd Tournament-Management-system
+3. Set Up the Database
+Create a new MySQL database.
+
+Import the provided .sql file into your database (using phpMyAdmin or CLI).
+
+4. Configure the Database Connection
+Open the config.php file.
+
+Update the database credentials accordingly:
+
+create database called : " tournament_db"
+there is a file inside the project folder import it inside the database 
+5. Launch the Project
+Ensure a local server (e.g., XAMPP or WAMP) is running.
+
+From the project directory, start the PHP development server:
+php -S localhost:8000
+Open your browser and navigate to http://localhost:8000
+
+📄 License
+This project is open-source and licensed under the MIT License.
+
+📬 Contact
+Have questions, suggestions, or want to contribute?
+
+📧 Email: zeinabyismail445@gmail.com
