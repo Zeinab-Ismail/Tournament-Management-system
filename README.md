@@ -1,44 +1,30 @@
- Project Overview:
-Welcome to the Tournament Management System – a web-based application designed to streamline the organization and management of student tournaments hosted by local colleges. This system supports both team-based and individual events, promoting participation in sports and academic challenges.
-
- Key Features
-🔹 Participant Management: Register and manage teams and individual players.
-
-🔹 Event Scheduling: Plan and manage up to 5 different events (sports and academics).
-
-🔹 Scoring System: Flexible and customizable, developed in collaboration with college staff.
-
-🔹 Result Tracking: Monitor and record real-time results and performance.
-
-🔹 Flexible Participation: Participants can register for one or multiple events.
-
- Tournament Structure
- Participants
+Tournament Structure
+Participants
 Teams: 4 teams, each with 5 members (20 students total).
 
 Individuals: 20 solo competitors.
 
 Total Participants: 40 students.
 
-🏁 Events
+Events
 Total Events: 5
 
 Types: Mix of physical sports (e.g., races) and academic contests (e.g., quizzes, problem-solving).
 
 Participation: Students may participate in one, multiple, or all events.
 
-🏅 Scoring
+Scoring
 Points are awarded based on performance in each event.
 
 The scoring rules are flexible and finalized through collaboration with the college's organizing committee.
 
-🛠️ Tech Stack
+Technologies Used
 Layer	Technology
 Frontend	Bootstrap
 Backend	PHP
 Database	MySQL
 
- Setup & Installation
+Setup & Installation
 1. Clone the Repository
 bash
 Copy
@@ -49,29 +35,35 @@ bash
 Copy
 Edit
 cd Tournament-Management-system
-3. Set Up the Database
-Create a new MySQL database.
+3. Create the Database
+Open phpMyAdmin (or any MySQL client).
 
-Import the provided .sql file into your database (using phpMyAdmin or CLI).
+Create a new database named:
 
-4. Configure the Database Connection
-Open the config.php file.
+sql
+Copy
+Edit
+tournament_db
+4. Import the SQL File
+Inside the project folder, locate the SQL file (e.g., tournament_db.sql).
 
-Update the database credentials accordingly:
+Import this file into the tournament_db database using phpMyAdmin or MySQL CLI.
 
-create database called : " tournament_db"
-there is a file inside the project folder import it inside the database 
 5. Launch the Project
-Ensure a local server (e.g., XAMPP or WAMP) is running.
+Make sure you have a local server running (such as XAMPP or WAMP).
 
-From the project directory, start the PHP development server:
+Open a terminal, navigate to the project folder, and run:
+
+bash
+Copy
+Edit
 php -S localhost:8000
-Open your browser and navigate to http://localhost:8000
+Open your browser and go to: http://localhost:8000
 
-📄 License
-This project is open-source and licensed under the MIT License.
+License
+This project is licensed under the MIT License.
 
-📬 Contact
-Have questions, suggestions, or want to contribute?
+Contact
+For questions or suggestions, please open an issue or reach out via email at:
+zeinabyismail445@gmail.com
 
-📧 Email: zeinabyismail445@gmail.com
